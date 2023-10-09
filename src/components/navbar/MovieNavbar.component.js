@@ -1,42 +1,33 @@
 import React from "react";
-import {BiSearch, BiChevronRight,BiChevronDown,BiMenu} from 'react-icons/bi';
+import {BiSearch,BiChevronLeft,BiShareAlt, BiChevronRight,BiChevronDown,BiMenu} from 'react-icons/bi';
+
 
 const NavSm=()=>{
 return(
     <>
         <div className="text-white flex items-center justify-between">
-            <div>
-                <h3 className="text-xl bold">It All Starts Here!</h3>
+            <div className="flex">
+            <BiChevronLeft className="w-8 h-8"/>
+                <h3 className="text-2xl font-bold">Jawan</h3>
                 <span className="text-gray-400 text-xs flex items-center">
-                    Bangalore<BiChevronRight/>
+                   
                 </span>
             </div>
-            <div className="w-8 h-8 ">
-                <BiSearch className="w-full h-full"/>
+            <div className="w-6 h-6 ">
+                <BiShareAlt className="w-full h-full"/>
             </div>
         </div>
     </>
 
     );
 };
-const NavMd=()=>{
-    return(
-        <>
-            <div className="w-full flex item-center bg-white gap-3 px-3 py-2 rounded-md" >
-            <BiSearch className="w-7 h-7"/>
-                <input type="search"
-                className="w-full focus:outline-none" 
-                placeholder="Search for movies, events, place, sports and activities"/>
-            </div>
-        </>
-    );
-};
+
 const NavLg=()=>{
     return(
     <>
         <div className="container mx-auto  flex justify-between">
             <div className="flex items-center w-1/2">
-            <div className="w-15 h-15 px-3">
+            <div className="p-3">
                 <img src="https://in.bmscdn.com/webin/common/icons/logo.svg"
                 alt="logo"
                 className="w-full h-full"/>
@@ -64,17 +55,17 @@ const NavLg=()=>{
     );
 };
 
-const NavBar =()=>{
+const MovieNavBar =()=>{
 
     return(
         <>
-            <nav className="bg-navCol-700 p-4">
+            <nav className=" absolute inset-x-0 z-30 bg-opacity-10 backdrop-filter backdrop-blur-lg bg-navCol-700 p-4 ">
                 <div className="md:hidden">{
                     <NavSm/>
                 }</div>
 
-                <div className="hidden lg:hidden md:flex">{
-                    <NavMd/>
+                <div className="hidden lg:hidden md:block">{
+                    <NavSm/>
                 }</div>
 
                 <div className="hidden lg:flex">"{
@@ -86,4 +77,4 @@ const NavBar =()=>{
 
 };
 
-export default NavBar; 
+export default MovieNavBar; 

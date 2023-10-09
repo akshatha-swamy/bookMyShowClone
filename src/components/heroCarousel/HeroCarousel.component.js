@@ -15,8 +15,8 @@ const HeroCarousel=()=>{
      infinite: true, 
      slidesToShow: 1,
      slidesToScroll: 1,
-     nextArrow:<NextArrow/>,
-     prevArrow:<PrevArrow/>
+     nextArrow:<NextArrow className="slick-next"/>,
+     prevArrow:<PrevArrow className="slick-prev"/>
     }
  const settings = {
      arrows:true,

@@ -3,20 +3,12 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import settings from "../../config/PosterCarousel.config";
 
 
 const EntertainmentCardSlider=()=>{
 
-    const settings={
-        arrows:true,
-        infiniy:true,
-        autoplay:false,
-        slidesToScroll:5,
-        slidesToShow:5,
-        initialSlide:0
-        
-    }
+   
     
     const EntertainmentImage=["https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTM1KyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png",
     "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png",
