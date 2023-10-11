@@ -45,7 +45,7 @@ const MovieHero=()=>{
       backgroundImage: "linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%)"
     }}
         />
-        <div className="container absolute z-30 left-12 top-28 flex">
+        <div className="container absolute z-30 left-12 top-36 flex">
         <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/jawan-et00330424-1693892482.jpg" alt="movie" className="  w-64 h-96 rounded-md "/>
 
         <div className=" flex flex-col  px-8 py-3 w-full">

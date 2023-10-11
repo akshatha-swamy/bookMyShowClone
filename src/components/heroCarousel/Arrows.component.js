@@ -12,9 +12,7 @@ export const NextArrow=(props)=>{
              className={props.className}
              style={{ ...props.style}}
             onClick={props.onClick}/>
-                
-            
-            
+        
         </>
     );
 };
