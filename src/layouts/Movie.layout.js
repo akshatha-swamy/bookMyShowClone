@@ -1,8 +1,8 @@
 import React from "react";
 
 //components
-import MovieNavBar from "../components/navbar/MovieNavbar.component";
-import HeroCarousel from "../components/heroCarousel/HeroCarousel.component";
+import MovieNavBar from "../components/MovieView/MovieNavbar.component";
+
 
 const MovieLayout = (props) => {
   return (

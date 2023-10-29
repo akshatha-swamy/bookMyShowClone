@@ -64,10 +64,10 @@ const NavLg=()=>{
         <div className="bg-navCol_1-800 w-full justify-between flex">
             <div>
             <ul className="flex my-2 gap-5  my-2 mx-12 text-gray-400 text-base">
-                <li>Movies</li>
+                <li><a href="http://localhost:3000/movies">Movies</a></li>
                 <li>Stream</li>
                 <li>Events</li>
-                <li>Plays</li>
+                <li><a href="http://localhost:3000/plays">Plays</a></li>
                 <li>Sports</li>
                 <li>Activities</li>
                 <li>Buzz</li>

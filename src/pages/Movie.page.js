@@ -1,8 +1,7 @@
 import React from "react";
-import MovieHero from "../components/MovieHero/MovieHero.component";
-import JawanCast from "../config/JawanCast.config";
-import CastCrew from "../components/poster/CastCrew.component";
-import CastSlider from "../components/slider/CastSlider.component";
+import MovieHero from "../components/MovieView/MovieHero.component";
+import CastCrewSlider from "../components/MovieView/CastCrewSlider.component";
+import JawanCast from "../components/MovieView/JawanCast.config";
 
 const Movie=()=>{
     return(
@@ -20,7 +19,7 @@ const Movie=()=>{
               <h1 className="text-gray-800 font-bold md:text-2xl">Cast</h1>
             </div>
             <div>
-              <CastSlider images={JawanCast} isDark={false}/>
+            <CastCrewSlider images={JawanCast} title="Premiers" subtitle="Brand New Releases Every Friday" isDark={false}/>
             </div>
            
           </div>

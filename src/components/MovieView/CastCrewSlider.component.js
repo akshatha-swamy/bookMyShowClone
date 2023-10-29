@@ -1,17 +1,22 @@
 import React from "react";
-
-import CastCrew from "../poster/CastCrew.component";
+//component
+import CastCrew from "./CastCrew.component";
+//config
 import settings from "../../config/PosterCarousel.config";
+
+//css
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
-const CastSlider=(props)=>{
+
+
+const CastCrewSlider=(props)=>{
     return(
         <>
-        <div className="flex flex-col items-start py-4">
-            <h3 className={`text-2xl font-bold ${props.isDark ?"text-white":"text-gray-800"}`}>{props.title}</h3> 
-           
-        </div>
+        <div className="flex flex-col items-start py-4 ">
+          </div>
             <Slider {...settings}>
                 {props.images.map((image)=>(
                     <CastCrew {...image} isDark={props.isDark}/>
@@ -21,4 +26,4 @@ const CastSlider=(props)=>{
     );
 }
 
-export default CastSlider;
+export default CastCrewSlider;

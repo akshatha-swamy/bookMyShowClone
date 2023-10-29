@@ -6,8 +6,14 @@ import Movies from "../components/Movies/Movies.component";
 const MoviePage=(props)=>{
     return(
         <>
+        <div >
+        <div className="hidden lg:block ">
+            <NavBar/>
+        </div>
             <HeroCarousel/>
             <Movies/>
+
+        </div>
         </>
     );
 }
