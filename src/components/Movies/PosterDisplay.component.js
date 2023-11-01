@@ -12,7 +12,8 @@ const PosterDisplay = () => {
           src={movie.src}
           title={movie.title}
           subtitle={movie.subtitle}
-          isDark={false} // Set the isDark prop as needed
+          isDark={false} 
+          page={movie.page}// Set the isDark prop as needed
         />
       ))}
     </div>

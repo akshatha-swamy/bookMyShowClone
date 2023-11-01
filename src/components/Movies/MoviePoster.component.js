@@ -3,6 +3,7 @@ import React from "react";
 const MoviePoster=(props)=>{
     return(
         <>
+          <a href={props.page}>
         <div className=" hidden lg:block flex flex-col item-start gap-2 px-2 ">
             <div className="h-84 w-60 flex ">
             <img src={props.src} alt={props.title} className="rounded-md w-full h-full"/>
@@ -14,6 +15,7 @@ const MoviePoster=(props)=>{
                 props.isDark?"text-white":"text-gray-700"
             }`}>{props.subtitle}</p>
         </div>
+        </a>
 
         <div className="hidden md:block lg:hidden flex-col item-start gap-2 px-2 ">
             <div className="h-60 w-40 flex ">

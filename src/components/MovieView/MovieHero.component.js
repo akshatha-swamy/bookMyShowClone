@@ -1,6 +1,9 @@
 import React from "react";
 import {BiSolidStar,BiChevronRight,BiPlay} from "react-icons/bi"
-const MovieHero=()=>{
+
+
+  
+const MovieHero=(props)=>{
     return(
     <>
     <div className="md:hidden">
@@ -90,7 +93,7 @@ const MovieHero=()=>{
 
             </div>
 
-            <button className="py-3 px-5 text-white w-52 rounded-md my-2 text-base font-bold my-6"  style={{backgroundColor:"#F84464"}}>Book tickets</button>
+            <button className="py-3 px-5 text-white w-52 rounded-md my-2 text-base font-bold my-6"  style={{backgroundColor:"#F84464"}} onClick={props.launchRazorPay} >Book tickets</button>
            
         </div>
 
