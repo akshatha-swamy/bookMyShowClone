@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 //component
 import Poster from "../poster/Poster.component";
+import MovieImages from "../Movies/MoviesList.component";
 
 //config
 import settings from "../../config/PosterCarousel.config";
@@ -14,7 +15,7 @@ export const Premier=()=>{
     return(
         <>
             <Slider {...settings}>
-                {PremierImages.map((image)=>(
+                {MovieImages.map((image)=>(
                     <Poster {...image} isDark/>
                 ))}
             </Slider>

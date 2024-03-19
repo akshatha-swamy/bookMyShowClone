@@ -1,50 +1,58 @@
+import jawan from "../../assets/jawan.jpg";
+import ssa from "../../assets/ssdy-sideA.jpg";
+import nun2 from "../../assets/nun 2.jpg";
+import jailer from "../../assets/jailer.jpg";
+import equilizer from "../../assets/equilizer 3.jpg";
+import banadariyalli from "../../assets/banadariyalli.jpg";
+import kushi from "../../assets/kushi.jpg";
+import kannur from "../../assets/kannur squad.jpg";
 
 const MovieImages=[
     {
-        src:"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC40LzEwICA1MTkuMksgVm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00330424-mccryrbvyf-portrait.jpg" ,
+        src:jawan ,
         alt: "Jawan",
         title:"Jawan",
         subtitle:"Action, Thriller",
         page:"http://localhost:3000/movie/123"
     },
     {
-        src: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICAyNC45SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00329345-qefkzgdjuq-portrait.jpg",
+        src: ssa,
         alt:"sapta sagaradaache ello" ,
         title:"Sapta Sagaradaache Ello" ,
         subtitle:"Drama, Romantic" 
     },
     {
-        src:"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni44LzEwICA0Ny44SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00363916-xfaaanbjex-portrait.jpg" ,
+        src:nun2 ,
         alt: "the nun 2",
         title:"The Nun 2" ,
         subtitle:"Horror, Mystery, Thriller" 
     },
     {
-        src:"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS8xMCAgNDA3LjVLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00331686-tjdzkqhvev-portrait.jpg" ,
+        src:jailer ,
         alt:"Jailer" ,
         title: "Jailer",
         subtitle: "Action, Drama, Thriller"
     },
     {
-        src: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny4xLzEwICAxMTEuMksgVm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00328665-alqlynvyqz-portrait.jpg",
+        src: kushi,
         alt: "Kushi",
         title: "Kushi",
         subtitle:"Comedy, Drama, Romantic" 
     },
     {
-        src: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4yLzEwICA0MjMgVm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00368660-uktceyvnga-portrait.jpg",
+        src:banadariyalli,
         alt:"Baanadariyalli" ,
         title:"Baanadariyalli" ,
         subtitle:"Adventure, Comedy, Romantic"
     },
     {
-        src:"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4xLzEwICA1LjlLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00358212-bpaphjgyyb-portrait.jpg" ,
+        src:equilizer ,
         alt:"The Equalizer 3" ,
         title:"The Equalizer 3",
         subtitle:"Action, Crime,  Thriller" 
     },
     {
-        src: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4zLzEwICA1LjVLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00370432-xebnbplscs-portrait.jpg",
+        src: kannur,
         alt:"Kannur Squad" ,
         title: "Kannur Squad",
         subtitle: "Action, Crime, Drama"
