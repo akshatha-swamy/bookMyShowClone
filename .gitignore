@@ -28,3 +28,4 @@ package.json
 planning.js
 ./public/manifest.json
 ./public/robots.txt
+.env

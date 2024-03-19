@@ -9,7 +9,7 @@ const Movie=()=>{
 
   const launchRazorPay=()=>{
     let options={
-      key:"rzp_test_qB2ngFhX6wqLzP",
+      key:"",
       amount:500*100,
       currency:"INR",
       name:"Book My Show Clone",
